@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <Title>exponential golomb coding</Title>
+    <Authors>Pejman Nikram</Authors>
+    <Description>exponential-golomb-coding with zero allocation</Description>
+    <PackageProjectUrl>https://github.com/PejmanNik/exponential-golomb-coding</PackageProjectUrl>
+    <Copyright>Pejman Nikram</Copyright>
+    <RepositoryUrl>https://github.com/PejmanNik/exponential-golomb-coding</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>exponential-golomb-coding;zero-allocation;exp-golomb;universal-code</PackageTags>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

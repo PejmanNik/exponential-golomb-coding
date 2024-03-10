@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExponentialGolombCoding", "src\ExponentialGolombCoding\ExponentialGolombCoding.csproj", "{A3E3DDB4-0163-4143-BE21-0BCAA444D41D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExponentialGolombCoding.Tests", "tests\ExponentialGolombCoding.Tests\ExponentialGolombCoding.Tests.csproj", "{45211ECD-7342-4226-826E-F0D6B0F1FF36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3E3DDB4-0163-4143-BE21-0BCAA444D41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E3DDB4-0163-4143-BE21-0BCAA444D41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E3DDB4-0163-4143-BE21-0BCAA444D41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E3DDB4-0163-4143-BE21-0BCAA444D41D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45211ECD-7342-4226-826E-F0D6B0F1FF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45211ECD-7342-4226-826E-F0D6B0F1FF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45211ECD-7342-4226-826E-F0D6B0F1FF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45211ECD-7342-4226-826E-F0D6B0F1FF36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6D6F8BA-0C83-4AD0-BCD8-0883D9617885}
+	EndGlobalSection
+EndGlobal
